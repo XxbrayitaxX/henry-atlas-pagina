@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    background-image: url("../images/header.jpg");
+    background: cover;
+    height: 85vh;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 100px;
+}
