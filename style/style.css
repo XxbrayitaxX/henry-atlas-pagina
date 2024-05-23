@@ -3,14 +3,66 @@
     padding: 0;
 }
 
+
+ /* header */
+
 header{
     display: flex;
     background-image: url("../images/header.jpg");
     background: cover;
-    height: 85vh;
+    height: 45vh;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 100px;
+}
+
+ /* navegacion */
+
+nav{
+    display: flex;
     justify-content: space-between;
 }
 
 .logo{
     height: 100px;
 }
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    font-family:  Tahoma;
+}
+
+ /* aside1 */
+
+h1{
+    color: white;
+    font-size: 80px;
+    font-family:  Tahoma;
+}
+
+ /* aside2 */
+
+.p1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* button1 */
+
+.button1{
+    font-size: 15px;
+    font-weight: 600;
+    font-family:  Tahoma;
+    border-color:transparent;
+    border-radius: 20px;
+    color:black;
+    background-color: #00FFAD;
+    width: 150px;
+    height: 40px;
+}
+
+ /* section1 */
+
+ 
