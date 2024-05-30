@@ -10,7 +10,7 @@ header{
     display: flex;
     background-image: url("../images/header.jpg");
     background: cover;
-    height: 78vh;
+    height: 55vh;
     justify-content: space-between;
     flex-direction: column;
     padding: 80px;
@@ -40,7 +40,7 @@ a{
 h1{
     color: white;
     font-size: 80px;
-    font-family:  Tahoma;
+    font-family: arial;
 }
 
 .h1{
@@ -55,13 +55,13 @@ padding: 10px;
 
 .p1{
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: arial;
     margin-bottom: 10px;
 }
 
 .p2{
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: arial;
     margin-bottom: 30px;
 }
 
@@ -70,7 +70,7 @@ padding: 10px;
 .button1{
     font-size: 15px;
     font-weight: 600;
-    font-family:  Tahoma;
+    font-family: arial;
     border-color:transparent;
     border-radius: 20px;
     color:black;
@@ -79,27 +79,132 @@ padding: 10px;
     height: 40px;
 }
 
- /* section-madre */
-
-
  /* section1 */
 
  .section1{
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    height: 31vh;
+    justify-content: center;
+    margin: 0px 0px 200px 0px;
+ }
+
+ h2{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px 60px 0px;
+    font-size: 45px;
  }
  
- /*imagenes1 */
-
  .imagenes1{
-    height: 10px;
+    height: 180px;
+    width: 200px;
+    margin-left: 130px;
  }
 
+ .h2{
+    font-family: arial;
+    margin: 0px;
+    font-size: 30px;
+    margin-bottom: 10px;
+ }
 
+ .p3{
+    text-align: center;
+   margin: 0px 30px 0px 30px;
+    width: 400px;
+    font-family: arial;
+ }
 
+ /* section2 */
 
+ .section2{
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+    margin-bottom: 100px;
+ }
+ h3{
+    font-size: 30px;
+    font-family: arial;
+    margin-left: 100px;
+ }
 
+.p4{
+    margin: 20px 30px 0px 100px;
+}
 
+.button2{
+    margin: 50px 30px 0px 100px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: arial;
+    border-color:transparent;
+    border-radius: 20px;
+    color:white;
+    background-color: #192440;
+    width: 150px;
+    height: 40px;
+}
+
+.imagenes2{
+    margin: 0px 150px 0px 60px;
+}
+
+/* section3 */
+
+/* section4 */
+
+.section4{
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 200px 0px;
+}
+
+.cajaAzul{
+    background-color: #192440;
+    margin: 0px 50px 0px 50px;
+}
+
+.h4{
+    font-size: 30px;
+    font-family: arial;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.numGrande{
+    text-align: center;
+}
+
+.p6{
+    height: 400px;
+    width: 300px;
+    text-align: center;
+}
+
+/* section5 */
+
+.section5{
+    display: flex;
+    background-color: #ECEEEF;
+    height: 15vh;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px 30px 0px;
+    font-size: 45px;
+    font-family: arial;
+}
+
+.imagenes4{
+    width:150px ;
+    height:60px ;
+}
 
 
  
