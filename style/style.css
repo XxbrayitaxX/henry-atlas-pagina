@@ -10,10 +10,8 @@ header{
     display: flex;
     background-image: url("../images/header.jpg");
     background: cover;
-    height: 55vh;
-    justify-content: space-between;
+    height: 65vh;
     flex-direction: column;
-    padding: 80px;
 }
 
  /* navegacion */
@@ -21,6 +19,7 @@ header{
 nav{
     display: flex;
     justify-content: space-between;
+    margin: 70px 270px 0px 270px;
 }
 
 .logo{
@@ -37,6 +36,10 @@ a{
 
  /* aside1 */
 
+.aside1{
+    margin: 0px 100px 0px 270px;
+}
+
 h1{
     color: white;
     font-size: 80px;
@@ -45,12 +48,6 @@ h1{
 
 .h1{
     margin-bottom: 40px;
-}
-
- /* aside2 */
-
-.aside2{
-padding: 10px;
 }
 
 .p1{
@@ -115,26 +112,40 @@ padding: 10px;
     font-family: arial;
  }
 
+ /* section-madre */
+
+ .section-madre{
+    padding: 20px 0px;
+    display: flex;
+    height: 108vh;
+    flex-direction: column;
+    background: linear-gradient(345deg, rgba(0,255,179,1) 10%, rgba(0,255,179,1) 65%, rgba(0,255,179,1) 50%, rgba(255,255,255,1) 0%);
+ }
+ 
+
  /* section2 */
 
  .section2{
     display: flex;
     height: 40vh;
-    justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
+    justify-content: space-between;
  }
+
  h3{
     font-size: 30px;
     font-family: arial;
-    margin-left: 100px;
+    margin-left: 300px;
  }
 
+ 
 .p4{
-    margin: 20px 30px 0px 100px;
+    margin: 20px 30px 0px 300px;
+    text-align: left;
 }
 
 .button2{
-    margin: 50px 30px 0px 100px;
+    margin: 50px 30px 0px 300px;
     font-size: 15px;
     font-weight: 600;
     font-family: arial;
@@ -147,22 +158,67 @@ padding: 10px;
 }
 
 .imagenes2{
-    margin: 0px 150px 0px 60px;
+    padding: 0px;
+    margin: 0px 260px 0px 50px;
 }
 
 /* section3 */
+
+.section3{
+display: flex;
+height: 40vh;
+justify-content: space-between;
+margin-bottom: 50px;
+}
+
+.imagenes3{
+  padding: 0px;
+  margin: 0px 0px 0px 330px;
+}
+
+.h3{
+    margin: 0px 300px 0px 100px;
+}
+
+.p5{
+    margin: 20px 300px 0px 100px;
+}
+
+.button3{
+    margin: 50px 300px 0px 100px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: arial;
+    border-color:transparent;
+    border-radius: 20px;
+    color:white;
+    background-color: #192440;
+    width: 150px;
+    height: 40px;
+}
 
 /* section4 */
 
 .section4{
     display: flex;
     justify-content: center;
-    margin: 0px 0px 200px 0px;
+    margin: 0px 0px 100px 0px;
 }
 
 .cajaAzul{
     background-color: #192440;
-    margin: 0px 50px 0px 50px;
+    text-align: center;
+    color: white;
+    font-family: arial;
+    padding: 60px 30px 30px 30px;
+    width:300px;
+    height:400px;
+    margin: 0px 100px 0px 100px;
+    border-radius: 8px;
+}
+
+.pAzul{
+    font-size: 25px ;
 }
 
 .h4{
@@ -172,14 +228,64 @@ padding: 10px;
     margin-bottom: 5px;
 }
 
-.numGrande{
+h4{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px 60px 0px;
+    font-size: 45px;
+    font-family: arial;
+}
+
+.divSection4{
     text-align: center;
+    font-family: arial;
+    padding: 60px 30px 30px 30px;
+    width:300px;
+    height:400px;
+}
+
+.Pnegrilla{
+    margin-bottom: 20px;
+}
+
+span{
+    font-size: 100px;
+    font-weight: bold;
 }
 
 .p6{
-    height: 400px;
-    width: 300px;
+    font-size: 25px ;
     text-align: center;
+}
+
+#marginP{
+    margin: 15px 0px 15px 0px ;
+}
+
+.button4{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: arial;
+    border-color:transparent;
+    border-radius: 20px;
+    color:white;
+    background-color: #00FFAD;
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+.buttonB{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: arial;
+    border-color:#192440;
+    border-radius: 20px;
+    color:black;
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: transparent;
 }
 
 /* section5 */
@@ -187,23 +293,85 @@ padding: 10px;
 .section5{
     display: flex;
     background-color: #ECEEEF;
-    height: 15vh;
-    justify-content: space-evenly;
+    height: 25vh;
+    justify-content:center;
     align-items: center;
-    padding: 40px;
-}
-
-h4{
-    display: flex;
-    justify-content: center;
-    margin: 100px 0px 30px 0px;
-    font-size: 45px;
-    font-family: arial;
 }
 
 .imagenes4{
-    width:150px ;
-    height:60px ;
+    width:180px ;
+    height:90px ;
+    margin: 0px 0px 0px 60px;
+}
+
+/* section6 */
+
+.section6{
+    display: flex;
+    background-image: url("../images/contact-bk.jpg");
+    background: cover;
+    height: 60vh;
+    font-family: arial;
+}
+
+.ultimoDiv{
+    color: white;
+    margin: 150px 100px 100px 300px;
+}
+
+h5{
+    font-size: 35px;
+}
+
+.Psection6{
+    margin: 10px 0px 10px 0px;
+}
+
+
+
+
+
+
+
+
+/* footer */
+
+footer{
+    display: flex;
+    height: 12vh;
+    background-color: #192440;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    font-family: arial;
+}
+
+.ultimoP{
+    margin-left: 280px;
+}
+
+.imagenesFace{
+    width: 80px;
+    height: 80px;
+}
+
+.imagenesX{
+    width: 68px;
+    height: 68px;
+    margin-bottom: 5px;
+}
+
+.imagenesbmw{
+    width: 57px;
+    height: 57px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.imagenesUltima{
+    margin-right: 280px;
+    width: 80px;
+    height: 80px;
 }
 
 
