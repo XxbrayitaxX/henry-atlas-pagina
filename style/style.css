@@ -10,7 +10,8 @@ header{
     display: flex;
     background-image: url("../images/header.jpg");
     background: cover;
-    height: 65vh;
+    background-repeat: no-repeat;
+    height: 70vh;
     flex-direction: column;
 }
 
@@ -316,21 +317,77 @@ span{
 
 .ultimoDiv{
     color: white;
-    margin: 150px 100px 100px 300px;
+    margin: 100px 250px 100px 150px;
 }
 
 h5{
     font-size: 35px;
 }
 
+h6{
+    font-size: 15px;
+    color: #00FFAD;
+    margin-bottom: 5px;
+    font-family: Arial;
+}
+
 .Psection6{
     margin: 10px 0px 10px 0px;
+    width: 400px;
+}
+
+.divInputFinal{
+    font-family: Arial;
+}
+
+.divInput{
+display: flex;
+margin-top: 100px;
+margin-bottom: 15px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.input1{
+    height: fit-content;
+    border-color: #00FFAD;
+    background-color: transparent;
+    border-radius: 5px;
+    height: 30px;
+    width: 230px;
+    margin-right: 35px;
+}
+
+.input2{
+    height: fit-content;
+    border-color: #00FFAD;
+    background-color: transparent;
+    border-radius: 5px;
+    height: 30px;
+    width: 230px;
+}
+
+.input3{
+    height: fit-content;
+    border-color: #00FFAD;
+    background-color: transparent;
+    border-radius: 5px;
+    height: 60px;
+    width: 500px;
 }
 
 
-
-
-
+.button5{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: arial;
+    border-color:transparent;
+    border-radius: 30px;
+    color:black;
+    background-color: #00FFAD;
+    width: 500px;
+    height: 45px;
+    margin-top: 25px;
+}
 
 
 
@@ -374,6 +431,377 @@ footer{
     height: 80px;
 }
 
+@media screen and (max-width:921px) {
+    /* header */
+    header{
+        background-image: url("../images/header.jpg"); 
+        display: flex;
+        height: 70vh;
+    }
+    h1{
+        font-size: 40px;
+    }
+    a{
+        margin-top: 20px;
+    }
+    .aside1{
+        margin-left: 100px;
+    }
+    nav{
+        margin: 30px 100px 0px 100px;
+    }
+    h2{
+        margin-bottom: 300px;
+    }
+     /* section1 */
+     .p3{
+        margin: 0px;
+     }
+     .section1{
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+        align-items: center;
+     }
+     .imagenes1{
+        margin-left: 100px;
+     }
+        /* sectionMadre */
+        .section-madre{
+            height: 140vh;
+            margin-bottom: 200px;
+        }
+        /* section2 */
+        .section2{
+            margin-top: 200px;
+        }
+        h3{
+            margin: 0px 0px 10px 30px;
+        }
+        .p4{
+            margin: 20px 0px 10px 35px;
+        }
+        .button2{
+            margin: 40px 0px 10px 30px;
+        }
+        .imagenes2{
+            margin: 0px 30px 0px 0px ;
+        }
+        /* section3 */
+        .imagenes3{
+            margin: 0px ;
+        }
+        .h3{
+            margin: 0px 0px 10px 50px;
+        }
+        .p5{
+            margin: 20px 0px 20px 50px;
+        }
+        .button3{
+            margin: 30px 0px 0px 50px;
+        }
+         /* section5 */
+        .imagenes4{
+            margin: 0px;
+        }
+        /* section6 */
+        .ultimoDiv{
+            margin: 70px 0px 0px 0px;
+            padding: 30px 0px 30px 10px;
+        }
+        /*footer*/
+        footer{
+            display: flex;
+            justify-content: space-around;
+        }
+        .ultimoP{
+            margin: 0px;
+        }
+        .imagenesUltima{
+            margin: 0px;
+        }
+    }
+
+    @media screen and (max-width:769px) {
+        /*sectionMadre*/
+        .section-madre{
+            margin-bottom: 100px;
+            height: 160vh;
+        }
+        /*section2*/
+        .imagenes2{
+            height: 300px;
+            width: 500px;
+            margin-right: 10px;
+        }
+        /*section3*/
+        .imagenes3{
+            height: 300px;
+            width: 500px;
+        }
+         /*section4*/
+         .section4{
+            flex-direction: column;
+            align-items: center;
+         }
+         /*section5*/
+         .section5{
+            justify-content: space-around;
+         }
+         .imagenes4{
+            height: 100px;
+            width: 100px;
+         }
+         /*section6*/
+         .ultimoDiv{
+            margin-left: 40px;
+         }
+         .input1{
+            width:105px ;
+         }
+         .input2{
+            width:105px ;
+         }
+         .input3{
+            width: 250px;
+         }
+         .button5{
+            width: 250px;
+         }
+    
+    }
+@media screen and (max-width:481px) {
+    /*header*/
+    header{
+        height: 85vh;
+    }
+    h2{
+        font-size: 30px;
+    }
+    /*sectionMadre*/
+    .section-madre{
+        background: linear-gradient(345deg, rgba(0,255,179,1) 10%, rgba(0,255,179,1) 58%, rgba(0,255,179,1) 50%, rgba(255,255,255,1) 0%);
+        height: 160vh;
+    }
+    /*section2*/
+    .section2{
+        flex-direction: column;
+    }
+    h3{
+        text-align: center;
+    }
+    .p4{
+        text-align: center;
+    }
+    .button2{
+       margin-left: 170px;
+       margin-bottom: 30px;
+    }
+    .imagenes2{
+        margin: 0px 0px 0px 35px;
+        height:400px ;
+        width:400px ;
+    }
+    /*section3*/
+    .section3{
+        flex-direction: column;
+    }
+    .h3{
+        text-align: center;
+    }
+    .p5{
+        text-align: center;
+    }
+    .button3{
+       margin-left: 170px;
+    }
+    .imagenes3{
+        margin-bottom: 30px;
+        margin-left: 40px;
+        height:400px ;
+        width:400px ;
+    }
+    /*section5*/
+
+    .imagenes4{
+        height: 70px;
+        width: 70px;
+    }
+    /*section6*/
+    .section6{
+        background-repeat: no-repeat;
+        height: 90vh;
+        flex-direction: column;
+    }
+    .divInput{
+        margin: 0px;
+    }
+    .divInputFinal{
+        margin-left: 115px;
+    }
+    h5{
+        text-align: center;
+        margin-right: 50px;
+    }
+    .Psection6{
+        text-align: center;
+    }
+    /*footer*/
+    .imagenesFace{
+        width: 50px;
+        height: 50px;
+    }
+
+    .imagenesX{
+        width: 42px;
+        height: 42px;
+        margin-bottom: 5px;
+    }
+
+    .imagenesbmw{
+        width: 35px;
+        height: 35px;
+        margin-left: 10px;
+        margin-bottom: 8px;
+    }
+    .imagenesUltima{
+        height: 50px;
+        width: 50px;
+    }
+    .ultimoP{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:352px) {
+
+    /*header*/
+    a{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 20px;
+        width: 200px;
+    }
+    .h1{
+        font-size: 20px;
+        width: 200px;
+    }
+    .p1{
+        text-align: center;
+        font-size: 14px;
+    }
+    .p2{
+        text-align: center;
+        font-size: 14px;
+    }
+    h2{
+       font-size: 20px; 
+    }
+    .h2{
+        font-size: 20px;
+    }
+    /*section1*/
+    .imagenes1{
+        margin-left: 42px;
+    }
+    .p3{
+        font-size: 10px;
+        width: 300px;
+    }
+    /*section2*/
+    .button2{
+        margin-left: 100px;
+    }
+    .imagenes2{
+        margin-left: 20px;
+        height: 300px;
+        width: 300px;
+    }
+    h3{
+        margin-right: 40px;
+    }
+    .p4{
+        margin-right: 45px;
+    }
+    /*section3*/
+    .button3{
+        margin-left: 100px;
+    }
+    .imagenes3{
+        margin-left: 30px;
+        height: 300px;
+        width: 300px;
+    }
+    .h3{
+        margin-right: 40px;
+    }
+    .p5{
+        margin-right: 45px;
+    }
+    h4{
+        font-size: 30px;
+    }
+    /*section4*/
+    .cajaAzul{
+        width: 280px;
+        margin: 0px;
+    }
+    .divSection4{
+        padding: 20px 0px 20px 0px;
+    }
+    /*section5*/
+    .imagenes4{
+        height: 50px;
+        width: 50px;
+    }
+    /*section6*/
+    .section6{
+        height: 90vh;
+    }
+    .ultimoDiv{
+        padding: 0px;
+        margin: 0px;
+    }
+    h5{
+        margin: 110px 0px 0px 0px;
+    }
+    .Psection6{
+        text-align: center;
+        font-size: 13px;
+        margin-left: 20px;
+        width: 300px;
+    }
+    .divInputFinal{
+        margin-left: 50px;
+        margin-top: 20px;
+        width: 150px;
+    }
+    /*footer*/
+    .imagenesFace{
+        width: 40px;
+        height: 40px;
+    }
+
+    .imagenesX{
+        width: 32px;
+        height: 32px;
+        margin-bottom: 5px;
+    }
+
+    .imagenesbmw{
+        width: 27px;
+        height: 27px;
+        margin-left: 10px;
+        margin-bottom: 8px;
+    }
+    .imagenesUltima{
+        height: 40px;
+        width: 40px;
+    }
+    .ultimoP{
+        font-size: 10px;
+    }
+}
 
  
 
