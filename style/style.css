@@ -292,6 +292,9 @@ span{
 /* section5 */
 
 .section5{
+    position: relative;
+    position: sticky;
+    bottom: 100px;
     display: flex;
     background-color: #ECEEEF;
     height: 25vh;
@@ -303,6 +306,20 @@ span{
     width:180px ;
     height:90px ;
     margin: 0px 0px 0px 60px;
+}
+
+/*Position */
+
+.position{
+    position: absolute;
+    bottom: -100px;
+}
+
+.redondo{
+    height: 180px;
+    width: 180px;
+    border-radius: 100px;
+    border: black 5px solid;
 }
 
 /* section6 */
@@ -387,9 +404,8 @@ font-family: Arial, Helvetica, sans-serif;
     width: 500px;
     height: 45px;
     margin-top: 25px;
+    margin-right: 100px;
 }
-
-
 
 /* footer */
 
